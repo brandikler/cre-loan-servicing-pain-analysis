@@ -158,6 +158,7 @@ Validate the top 2 themes before publishing. The memo currently rests on inferre
 About
 Built by Brandi Kler, May 2026.
 
-LinkedIn · Email
+LinkedIn: https://www.Linkedin.com/in/brandikler
+Email: brandikler@gmail.com
 
 This is a portfolio project. The memo is opinionated and the methodology is non-trivially novel; both are deliberate. Feedback welcome.
