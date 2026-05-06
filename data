@@ -1,1 +1,107 @@
+source_id	source_url	source_type	date	persona_fit	raw_text	quick_note
+Abrigo/Sageworks		ForumAggregate	2026	3	"We use Abrigo/Sageworks too. Agree on the tedious comment as it seems geared much more towards consumer lending."	
+Finastra LoanIQ	https://www.gartner.com/reviews/product/loan-iq	Review	2022-12-23 0:00:00	4	"Overall, Loan IQ is a great product to use. While not fully customizable, it does offer ease of accessibility. The product also has great support team that is able to help us often, which is very comforting especially when we are deploying the app newlyWhat do you like most about the product or service?
+Automation definitely! It makes day to day operations easier. We were able to easily deploy this software to our everyday lives and instantly use its automation to help us complete our daily tasks at a quicker pace.
+
+What do you dislike most about the product or service?
+I cannot customize fully to how I want the product. Based on all the teams that use this product, we would've liked the product to have more customization, however that is not the case."	
+Finastra LoanIQ	https://www.gartner.com/reviews/product/loan-iq	Review	2023-01-18 0:00:00	4	"Overall Comment:""I am a daily user of Loan IQ. I use it for both bi-lateral and syndicated loan facility structures. I work in an area with non-traditional loans that often have customized features. We tend to have quite a few problems where we have to go back to Finastra to fix issues and the resolutions are not as quick as we need. This often bleeds over reporting periods which is problematic. It is a broad range product and I work for a very large company that is consolidating loans and Loan IQ is the primary loan system. I will say, other peers in my world prefer their existing loan systems over Loan IQ."" What do you like most about the product or service?
+It is a product that can handle a wide array of loan products, like I said, our company has made it the choice to consolidate all of our loan systems to. If it can handle my company it should be able to handle most.
+
+What do you dislike most about the product or service?
+I find the research to be difficult and not intuitive. It took me a long time to figure out where to find things. I know our Operational personnel struggle to learn all of it and there is a long learning curve with it. We have some experienced ops personnel that do not know how to fairly simple tasks due to the complicated interface."	
+Finastra LoanIQ	https://www.gartner.com/reviews/product/loan-iq	Review	2022-12-30 0:00:00	4	"Overall Comment:""Overall Fusion Loan IQ is a good software for increase transparency and efficiency by automated process of loan generation. User interface of this application is innovative and well managed. "" What do you like most about the product or service?
+It reduced cost of loan generating using single lending platform. It improves risk management and reduces error possibilities. loan disbursement is simple and easy for our clients.
+
+What do you dislike most about the product or service?
+If you don't consider price perspective, then loan IQ is a good option to use. I don't find anything that I dislike about."	
+JD - CRE Analyst (QAR)		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Borrower requests and consents are manually processed by the analyst — no self-service borrower portal. Borrower interactions are inbound work for the servicing analyst.
+JD - CRE Analyst (QAR)		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	QARs are manually compiled each quarter — significant analyst hours consumed in producing investor/lender reporting. Implies no real-time investor portal or automated QAR generation.
+JD - CRE Analyst (QAR)		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Property-level updates collected via correspondence (email/phone) rather than borrower data feed or portal. Inbound borrower data is unstructured and must be normalized by the analyst.
+JD - CRE Analyst (QAR)		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Weekly portfolio updates are manually compiled — no real-time portfolio dashboard surfacing issues, discussions, and events automatically. Analyst is the aggregation layer.
+JD - CRE Analyst (QAR)		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Event/trigger monitoring (covenant breaches, watchlist signals, escrow shortfalls, payment events) is a human job rather than automated alerts. Covenant/trigger automation is missing or partial.
+JD - CRE Analyst (QAR)		job_description	2026-05-01 0:00:00	4	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	CRE financial analysis lives in Excel models *alongside* the servicing platform — servicing platforms don't natively support analyst-level financial modeling (DSCR, NPV, IRR scenarios on stressed cash flows). Excel is the de facto modeling layer.
+JD - Peachtree Loan Servicing Analyst		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Draw processing requires manual coordination across 4+ external parties (borrowers, construction monitors, participants, lenders). No unified workflow tool — coordination happens via email/calls/spreadsheets.
+JD - Peachtree Loan Servicing Analyst		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Reports are *developed* per request, not pulled from system. Reporting layer of the servicing platform is too weak for analyst needs; bespoke report-building is part of the job.
+JD - Peachtree Loan Servicing Analyst		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Loan boarding is a manual handoff. Origination → servicing data flow is broken or absent; analyst manually facilitates onboarding for both originated and acquired loans.
+JD - Peachtree Loan Servicing Analyst		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Covenant compliance is "ad-hoc review" — not automated covenant tracking. Analyst reads loan docs to verify compliance manually. Direct covenant-tracking pain.
+JD - Peachtree Loan Servicing Analyst		job_description	2026-05-01 0:00:00	4	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Process improvement is staffed against — implicit acknowledgement that current processes have gaps significant enough to require dedicated improvement work.
+JD - Sany Capital USA Loan Ops		job_description	2026-05-01 0:00:00	4	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Manual data entry from finance contracts. Contract data is not auto-extracted from documents; analyst re-keys terms into the loan administration system.
+JD - Sany Capital USA Loan Ops		job_description	2026-05-01 0:00:00	4	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Portfolio reports are manually prepared and distributed (likely Excel + email), not pulled from a real-time servicing system. No self-serve reporting layer.
+JD - Sany Capital USA Loan Ops		job_description	2026-05-01 0:00:00	4	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Trend identification is a manual analyst job, not an automated early-warning system on the servicing platform. Risk signal surfacing is human-dependent.
+JD - Sany Capital USA Loan Ops		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Analyst performs UAT on vendor upgrades — implies servicing platform releases break things often enough that customers manually validate them. Quietly devastating signal on vendor release quality.
+JD - Sany Capital USA Loan Ops		job_description	2026-05-01 0:00:00	4	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Compliance auditing is manual file review — no automated compliance rules embedded in the servicing platform. Compliance scales with headcount, not loans.
+JD - Sany Capital USA Loan Ops		job_description	2026-05-01 0:00:00	3	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Reveals the loan administration system in use (Solifi/InfoLease — equipment finance servicing platform). Useful as data point on platform landscape, less so as direct pain.
+JD - Sr. Associate Capital Markets		job_description	2026-05-01 0:00:00	4	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	"Master portfolio data tapes" = industry shorthand for batch CSV/Excel files exchanged with capital providers. Implies data tapes are manually generated files, not API-driven feeds. Persistent data-exchange pain.
+JD - Sr. Associate Capital Markets		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Producing KPI reports requires internal eng team involvement. Servicing/portfolio platforms do not expose self-service reporting at the level needed; KPIs require eng + Power BI.
+JD - Sr. Associate Capital Markets		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	Org is *developing* reconciliation procedures, not buying them off-the-shelf. No canonical reconciliation system; procedures are home-grown. Corroborates Trazmo "reconciliation drift" theme directly.
+JD - Sr. Associate Capital Markets		job_description	2026-05-01 0:00:00	5	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	The fact that this is staffed against implies capital provider reports DO NOT naturally match business-level reports. Direct reconciliation drift signal — strongest cross-source pain confirmation in the corpus.
+JD - Sr. Associate Capital Markets		job_description	2026-05-01 0:00:00	4	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	"Handled efficiently" framed as a goal implies current compliance reporting/monitoring is *not* efficient — manual, fragmented, or duplicative across capital providers.
+JD - Sr. Associate Capital Markets		job_description	2026-05-01 0:00:00	4	[Raw text redacted from public corpus — JD content from public LinkedIn postings. Quick Note column contains the workflow→pain pre-translation used by the pipeline. See data_sources.md for redaction policy.]	SQL is a hard requirement for an analyst role — servicing/portfolio platforms do not expose data through native UI in the way the org needs. Analysts go around the platform via SQL.
+Ncino	https://www.reddit.com/r/salesforce/comments/1550asc/i_want_to_leave_the_salesforce_consulting/#:~:text=nCino%20is%20pure%20trash.%20That's,AFTER%20you%20sign%20the%20contract.		2023	4	nCino code is also held by duct tape so many null pointer exceptions. And their support is not very good. There’s a rare few that are actually helpful/know what they’re talking about. nCino is pure trash. That's why they refuse to provide either a hands-on trial period or any technical documentation at all until AFTER you sign the contract. 	
+Ncino		ForumAggregate	2026	3	A popular choice, but experiences vary. Some users find it efficient, while others struggle with its usability. "Underwriter here. We just migrated to nCino a year ago and it is god awful."	
+Nortridge Loan System	https://www.capterra.com/p/44128/The-Nortridge-Loan-System/reviews/	Review	2020-03-10 0:00:00	3	"Pros
+Very flexible and easy to customize without expensive IT resources.
+
+Cons
+Some weird way to accomplish some of the automations or rules
+
+Switched from
+Advantage
+Advantage
+Flexibility and an improved management of financials"	
+Nortridge Loan System	https://www.capterra.com/p/44128/The-Nortridge-Loan-System/reviews/	Review	2019-02-21 0:00:00	4	"This company attempts to make themselves look big and like they can handle big business, but when it comes to true support they cannot keep up.
+
+Pros
+Better than having no account management software. I'm sure if you are just doing automobile or home loan financing, it probably works fine.
+
+Cons
+Their User Interface is ancient and is not awful to use, but it's certainly not easy. I would HIGHLY recommend never using NLS provided hosting. Their hosting product is on a shared environment where one clients setup can affect another clients setup. Our software developers have found multiple bugs in their product and when we report them they either try to argue that it's not a bug or they take 6+ months to fix the bug. - NortRidge's support of their NLS product is horrible. * I would HIGHLY recommend never using NLS provided hosting. Their hosting product is on a shared environment where one clients setup can affect another clients setup. * We use their report server product (which is just a replicated MSSQL database) on their hosted platform and one time they moved it to a new server without telling us and changed the database path without telling us. Our internal manager asked them multiple times if their update would require and username, password, or server changes and they kept telling him 'No'. * They will only do software updates during standard business hours, so they have to take your business offline while they do it and you have to pray they don't cause new problems after the software updates are done. We most certainly had issues with bugs or problems after an update and they don't have a rollback process"	
+Nortridge Loan System	https://www.capterra.com/p/44128/The-Nortridge-Loan-System/reviews/	Review	2020-03-10 0:00:00	3	"The overall experience has been amazing! The Nortridge team has been awesome to work with, and we truly feel they are concerned about our overall needs as a company to not only maintain but grow into areas we weren’t able to in our legacy system.
+
+Pros
+The ability to customize almost everything
+
+Cons
+The limited options on branch security and reporting.
+
+Switched from
+Emphasys
+Emphasys
+Emphasys was an antiquated system with extremely limited capability"	
+Nortridge Loan System	https://www.capterra.com/p/44128/The-Nortridge-Loan-System/reviews/	Review	2020-03-10 0:00:00	4	"Outstanding. I was able to bring up one seat when my business was small, and grow that easily and cost-effectively. The system is highly stable, well supported, and easy to integrate with and easy for collectors to use.
+
+Pros
+Ease of reporting, ease of setup and change management, outstanding loan accounting capabilities, value
+
+Cons
+Most CFOs would love to have a GL module
+
+Alternatives considered
+Omega System
+Omega System
+Reason for choosing The Nortridge Loan System
+Cost (able to buy only 1 seat to start), ease of implementation, ease of management, outstanding reporting"	
+Nortridge Loan System	https://www.capterra.com/p/44128/The-Nortridge-Loan-System/reviews/	Review	2020-03-10 0:00:00	4	"The largest problems we are having as a licensed user of NLS is latency between using the application an it communicating with the server. The latency is the biggest complaint among staff, and there seems to be no readily available solution to fix this without going higher and higher up the chain of command.
+
+Pros
+The customization of the software was the key selling point for my company. It has a plethora of features, and I know that we are not using it to its full capabilities.
+
+Cons
+Customization feels like it has a barrier to entry. The programming languages are not made apparent up front, and the APIs documentation is difficult to find and sometimes lacking in detailed information.
+
+Reason for choosing The Nortridge Loan System
+Customization and integrations that would improve our business process."	
+Nortridge Loan System		Review	2026-01-28 0:00:00	4	I’ve used Nortridge earlier. It was great, but after months of technical training, even simple changes required developer support, and we paid for many features we never used. So I have now switched to Bryt. The interface is easy to work with, the modular pricing helped me design my own feature stack, and the negligible reliance on technical support has made things smoother for us. However, I won’t say I hate it; I just wish it could also support origination. That said, for servicing, reporting, and day-to-day operations, it’s been the least frustrating setup we’ve had so far.	
+Nortridge Loan System	https://www.softwareadvice.com/loan-servicing/nortridge-profile/reviews/	Review	2020	4	"Good experience overall. Anyone looking to lighten their load and automate things where loan processing is concerned should try implementing this software. Pros:
+As a Financial Service company, we also process loans for clients. This is a very good loan servicing software that helps you to keep track of loans in the pipeline, email or text customers with updates or questions, generate documents, etc. It's an all-in-one system that replaces having to manually do each aspect of loan processing.
+Cons:
+This is a robust system. Long ago doing mortgages, used to use a software called Point, and this is far more updated and sophisticated."	
+Nortridge Loan System	https://www.softwareadvice.com/loan-servicing/nortridge-profile/reviews/	Review	2019	4	"Our company got into the loan servicing business without really understanding it. Our attempt to build it from scratch was iladvised and we needed a solid software to support this. Nortridge has done the job. Pros:
+It does the core functions flawlessly. We still are waiting for better API integrations but they have come a long way.
+Cons:
+We still have issues with support responsiveness. Its taken a long time to get a web client but its on the way."	
+Trazmo		Vendor Perspective	2026	3	Reconciliation drift, numbers stop matching and no one trusts the reports	
+Trazmo		Vendor Perspective	2026	3	"Manual work creeping back in around disbursements, adjustments, restructures, and recoveries"	
+Trazmo		Vendor Perspective	2026	3	"Most teams don't switch systems because they want more features. They switch when recon becomes a full-time job and trust in the numbers is gone."	
 
