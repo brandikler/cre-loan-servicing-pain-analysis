@@ -1,0 +1,325 @@
+{
+  "methodology": {
+    "method": "Manual semantic clustering by LLM",
+    "rationale": "At n=47, LLM-driven clustering produces tighter, more interpretable themes than ML-based approaches (HDBSCAN/KMeans on embeddings). Trade-off: less reproducible without an explicit cluster prompt.",
+    "scoring": "composite_score = severity_weighted_sum + (unique_source_ids \u00d7 unique_source_types). Severity weights: high=3, medium=2, low=1.",
+    "limitations": "JD-derived pains over-index in severity (workflow descriptions read as blocking). Nortridge over-indexed in raw count (8 of 40 source rows). Discount Nortridge-only clusters when interpreting."
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "cluster_id": "C6",
+      "label": "Vendor support quality, responsiveness & release management",
+      "description": "Vendor support is slow, unhelpful, or argumentative; bug fixes take 6+ months; release management is poor (no rollback, undisclosed server moves, customers run UAT for vendor releases). Resolution delays bleed over reporting periods.",
+      "pain_count": 7,
+      "severity_weighted": 20,
+      "high_severity_count": 6,
+      "unique_sources": 4,
+      "unique_source_types": 3,
+      "cross_source_score": 12,
+      "composite_score": 32,
+      "members": [
+        "P003",
+        "P020",
+        "P029",
+        "P033",
+        "P036",
+        "P037",
+        "P043"
+      ],
+      "pain_summaries": [
+        "Vendor issue resolution slow; delays bleed over reporting periods",
+        "Customers manually UAT vendor upgrades; vendor release quality is poor",
+        "Support quality poor; few competent reps",
+        "Support is horrible; 6+ months to fix bugs; argues bugs aren't bugs",
+        "Vendor moved server and changed DB path without notification",
+        "Updates only during business hours; no rollback process",
+        "Support responsiveness issues; slow feature delivery (e.g., web client)"
+      ]
+    },
+    {
+      "rank": 2,
+      "cluster_id": "C1",
+      "label": "Manual / bespoke reporting & analytics",
+      "description": "Reports developed per request rather than pulled from system; no self-serve reporting; KPI/portfolio reports require manual compilation, eng involvement, or SQL workarounds.",
+      "pain_count": 7,
+      "severity_weighted": 19,
+      "high_severity_count": 6,
+      "unique_sources": 5,
+      "unique_source_types": 2,
+      "cross_source_score": 10,
+      "composite_score": 29,
+      "members": [
+        "P007",
+        "P009",
+        "P013",
+        "P018",
+        "P023",
+        "P027",
+        "P038"
+      ],
+      "pain_summaries": [
+        "Quarterly Asset Reports manually compiled; significant analyst hours per quarter",
+        "No real-time portfolio dashboard; weekly updates manually compiled",
+        "Reports developed per request, not pulled from system",
+        "Portfolio reports manually prepared and distributed; no self-serve reporting",
+        "KPI reports require eng team + Power BI; no self-serve",
+        "Analysts use SQL to work around platform; UI doesn't expose needed data",
+        "Limited branch security and reporting options"
+      ]
+    },
+    {
+      "rank": 3,
+      "cluster_id": "C8",
+      "label": "Customization & extensibility barriers (APIs, modeling, fit)",
+      "description": "Cannot customize platform to fit needs; APIs poorly documented; programming languages opaque; even simple changes require developer support; platforms don't fit commercial workflows; no native financial modeling forces Excel as middleware.",
+      "pain_count": 6,
+      "severity_weighted": 12,
+      "high_severity_count": 1,
+      "unique_sources": 4,
+      "unique_source_types": 3,
+      "cross_source_score": 12,
+      "composite_score": 24,
+      "members": [
+        "P001",
+        "P002",
+        "P011",
+        "P041",
+        "P042",
+        "P044"
+      ],
+      "pain_summaries": [
+        "Tedious for commercial; geared toward consumer lending",
+        "Cannot fully customize product to needs",
+        "Servicing platforms can't model financials; Excel is de facto modeling layer",
+        "Customization barrier: undocumented languages, sparse API docs",
+        "Even simple changes required developer support after months of training",
+        "API integrations limited; improving but not yet adequate"
+      ]
+    },
+    {
+      "rank": 4,
+      "cluster_id": "C2",
+      "label": "Reconciliation drift between systems & reports",
+      "description": "Numbers don't match between internal books, capital provider reports, and operational systems. Reconciliation procedures are home-grown; trust in numbers erodes; this drives system replacement.",
+      "pain_count": 4,
+      "severity_weighted": 12,
+      "high_severity_count": 4,
+      "unique_sources": 2,
+      "unique_source_types": 2,
+      "cross_source_score": 4,
+      "composite_score": 16,
+      "members": [
+        "P024",
+        "P025",
+        "P045",
+        "P047"
+      ],
+      "pain_summaries": [
+        "No canonical reconciliation system; org develops procedures from scratch",
+        "Reconciliation drift: capital provider reports don't match business-level reports",
+        "Reconciliation drift; numbers stop matching; reports lose trust",
+        "Switching trigger: recon becomes full-time job and trust is gone"
+      ]
+    },
+    {
+      "rank": 5,
+      "cluster_id": "C7",
+      "label": "UI/UX complexity & long learning curve",
+      "description": "Interfaces are ancient, unintuitive, or weirdly structured. Even experienced operations personnel struggle with simple tasks. Long learning curves drive workflow friction.",
+      "pain_count": 4,
+      "severity_weighted": 9,
+      "high_severity_count": 2,
+      "unique_sources": 3,
+      "unique_source_types": 2,
+      "cross_source_score": 6,
+      "composite_score": 15,
+      "members": [
+        "P004",
+        "P031",
+        "P032",
+        "P034"
+      ],
+      "pain_summaries": [
+        "Complex UI; experienced ops personnel struggle with simple tasks",
+        "Underwriter post-migration: nCino is god awful",
+        "Awkward implementation of automations and rules",
+        "User Interface is ancient and not easy to use"
+      ]
+    },
+    {
+      "rank": 6,
+      "cluster_id": "C4",
+      "label": "Manual data ingest from borrowers, contracts & counterparties",
+      "description": "No self-service borrower portal; property/financial updates collected via correspondence; contract data manually re-keyed; data tapes manually generated. Inbound data is unstructured and must be normalized by analysts.",
+      "pain_count": 4,
+      "severity_weighted": 11,
+      "high_severity_count": 3,
+      "unique_sources": 3,
+      "unique_source_types": 1,
+      "cross_source_score": 3,
+      "composite_score": 14,
+      "members": [
+        "P006",
+        "P008",
+        "P017",
+        "P022"
+      ],
+      "pain_summaries": [
+        "No self-service borrower portal; analyst processes requests manually",
+        "Property data collected via correspondence; unstructured inbound data",
+        "Manual data entry from finance contracts; no auto-extraction",
+        "Master portfolio data tapes manually generated; no API-driven feeds"
+      ]
+    },
+    {
+      "rank": 7,
+      "cluster_id": "C11",
+      "label": "Code quality, performance & hosting",
+      "description": "Code held together by 'duct tape' with null pointer exceptions; app-server latency unresolved without escalation; shared hosting environments where one customer affects another.",
+      "pain_count": 3,
+      "severity_weighted": 9,
+      "high_severity_count": 3,
+      "unique_sources": 2,
+      "unique_source_types": 2,
+      "cross_source_score": 4,
+      "composite_score": 13,
+      "members": [
+        "P028",
+        "P035",
+        "P040"
+      ],
+      "pain_summaries": [
+        "Code quality poor; many null pointer exceptions",
+        "Shared hosting; one client's setup affects others",
+        "App-server latency is biggest staff complaint; no available fix"
+      ]
+    },
+    {
+      "rank": 8,
+      "cluster_id": "C3",
+      "label": "Manual covenant / event / trigger monitoring",
+      "description": "Covenant compliance, watchlist signals, escrow events, and risk triggers are monitored manually rather than via automated alerts. Compliance and risk-surfacing scale with headcount.",
+      "pain_count": 3,
+      "severity_weighted": 8,
+      "high_severity_count": 2,
+      "unique_sources": 3,
+      "unique_source_types": 1,
+      "cross_source_score": 3,
+      "composite_score": 11,
+      "members": [
+        "P010",
+        "P015",
+        "P019"
+      ],
+      "pain_summaries": [
+        "Covenant/event/trigger monitoring is manual; no automated alerts",
+        "Covenant compliance is ad-hoc manual review; no automated tracking",
+        "Risk trend identification is manual; no automated early-warning"
+      ]
+    },
+    {
+      "rank": 9,
+      "cluster_id": "C9",
+      "label": "Manual money-event workflows (draws, disbursements, restructures)",
+      "description": "Construction draws, disbursements, adjustments, restructures, and recoveries require manual coordination across multiple external parties and don't have unified workflow tooling.",
+      "pain_count": 2,
+      "severity_weighted": 6,
+      "high_severity_count": 2,
+      "unique_sources": 2,
+      "unique_source_types": 2,
+      "cross_source_score": 4,
+      "composite_score": 10,
+      "members": [
+        "P012",
+        "P046"
+      ],
+      "pain_summaries": [
+        "Draw processing requires manual coordination across 4+ external parties",
+        "Manual work persists in disbursements, adjustments, restructures, recoveries"
+      ]
+    },
+    {
+      "rank": 10,
+      "cluster_id": "C12",
+      "label": "Pricing, missing features & procurement gaps",
+      "description": "Concerns around price-to-value; missing modules (GL); no trial period or pre-contract documentation. Customers paying for unused features.",
+      "pain_count": 3,
+      "severity_weighted": 4,
+      "high_severity_count": 0,
+      "unique_sources": 3,
+      "unique_source_types": 2,
+      "cross_source_score": 6,
+      "composite_score": 10,
+      "members": [
+        "P005",
+        "P030",
+        "P039"
+      ],
+      "pain_summaries": [
+        "Pricing concern (hedged)",
+        "No trial or technical documentation pre-contract",
+        "Missing GL module"
+      ]
+    },
+    {
+      "rank": 11,
+      "cluster_id": "C10",
+      "label": "Manual compliance auditing",
+      "description": "Compliance auditing is manual file review with no automated rules embedded in the platform; compliance reporting across capital providers is fragmented and duplicative.",
+      "pain_count": 2,
+      "severity_weighted": 5,
+      "high_severity_count": 1,
+      "unique_sources": 2,
+      "unique_source_types": 1,
+      "cross_source_score": 2,
+      "composite_score": 7,
+      "members": [
+        "P021",
+        "P026"
+      ],
+      "pain_summaries": [
+        "Compliance auditing is manual file review; scales with headcount, not loans",
+        "Compliance reporting/monitoring inefficient; manual, fragmented, duplicative"
+      ]
+    },
+    {
+      "rank": 12,
+      "cluster_id": "C5",
+      "label": "Loan boarding handoff broken",
+      "description": "Origination \u2192 servicing data flow is broken or absent; loan boarding requires manual handoff for both originated and acquired loans.",
+      "pain_count": 1,
+      "severity_weighted": 3,
+      "high_severity_count": 1,
+      "unique_sources": 1,
+      "unique_source_types": 1,
+      "cross_source_score": 1,
+      "composite_score": 4,
+      "members": [
+        "P014"
+      ],
+      "pain_summaries": [
+        "Loan boarding manual handoff; origination \u2192 servicing data flow broken"
+      ]
+    },
+    {
+      "rank": 13,
+      "cluster_id": "C13",
+      "label": "Process gap acknowledgment (meta)",
+      "description": "Organizations explicitly staff against 'process improvement' \u2014 not a workflow-specific pain but a meta-signal that current workflows have material gaps.",
+      "pain_count": 1,
+      "severity_weighted": 2,
+      "high_severity_count": 0,
+      "unique_sources": 1,
+      "unique_source_types": 1,
+      "cross_source_score": 1,
+      "composite_score": 3,
+      "members": [
+        "P016"
+      ],
+      "pain_summaries": [
+        "Process improvement is staffed against; current processes have material gaps"
+      ]
+    }
+  ]
+}
